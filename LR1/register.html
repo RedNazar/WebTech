@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація - Beyerdynamic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="services.html">Послуги</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="register.html">Реєстрація</a>
+    </nav>
+
+    <main class="auth-container">
+        <div class="auth-card">
+            <h1>Створити аккаунт</h1>
+
+            <form class="register-form">
+                <div class="form-group">
+                    <label for="reg-name">Повне ім'я</label>
+                    <input type="text" id="reg-name" placeholder="Рудий Назар" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-birth">Дата народження</label>
+                    <input type="date" id="reg-birth" name="birthday" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" placeholder="main@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-password">Пароль</label>
+                    <input type="password" id="reg-password" minlength="8" required>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Я згоден з правилами користування</label>
+                </div>
+
+                <button type="submit" class="btn-register">Зареєструватися</button>
+            </form>
+    </main>
+</body>
+</html>
